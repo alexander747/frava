@@ -26,22 +26,22 @@
         <form class="row g-3" method="POST" id="formulario">
             <div class="col-md-4">
                 <label for="nombreid" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombreid" name="nombre">
+                <input type="text" class="form-control" id="nombreid" name="nombre" required>
             </div>
 
             <div class="col-md-4">
                 <label for="apellidosid" class="form-label">Apellidos</label>
-                <input type="text" class="form-control" id="apellidosid" name="apellidos">
+                <input type="text" class="form-control" id="apellidosid" name="apellidos" required>
             </div>
 
             <div class="col-md-4">
                 <label for="fechanacimientoid" class="form-label">Fecha de nacimiento</label>
-                <input type="date" class="form-control" id="fechanacimientoid" name="fecha_nacimiento">
+                <input type="date" class="form-control" id="fechanacimientoid" name="fecha_nacimiento" required>
             </div>
 
             <div class="col-md-4">
                 <label for="sexoid" class="form-label">Sexo</label>
-                <select class="form-select" aria-label="Default select example" name="sexo" id="sexoid">
+                <select class="form-select" aria-label="Default select example" name="sexo" id="sexoid" required>
                     <option value="Hombre">Hombre</option>
                     <option value="Mujer">Mujer</option>
                     <option value="Indefinido">Indefinido</option>
@@ -50,7 +50,7 @@
 
             <div class="col-md-4">
                 <label for="estaturaid" class="form-label">Estatura</label>
-                <input type="number" class="form-control" id="estaturaid" name="estatura" step="0.01">
+                <input type="number" class="form-control" id="estaturaid" name="estatura" step="0.01" required>
             </div>
 
             <div class="col-md-4">
