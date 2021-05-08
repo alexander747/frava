@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 08-05-2021 a las 02:26:34
+-- Tiempo de generación: 08-05-2021 a las 02:58:21
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.6
 
@@ -42,17 +42,17 @@ CREATE TABLE `persona` (
 --
 
 INSERT INTO `persona` (`per_id`, `per_nombre`, `per_apellidos`, `per_fecha_nacimiento`, `per_sexo`, `per_estatura`, `per_colombiano`) VALUES
-(77, 'uno', 'alexander', '2021-05-19', 'Hombre', 3, 'Si'),
-(78, 'dos', 'duvan', '2021-04-30', 'Hombre', 3, 'Si'),
-(79, 'tres', 'dos', '2021-05-05', 'Hombre', 3, 'No'),
-(81, 'cuatro', 'sdfd', '2021-05-03', 'Hombre', 3, 'No'),
-(82, 'cinco', '5', '2021-06-04', 'Hombre', 3, 'No'),
-(83, 'seis', '3', '2021-05-29', 'Hombre', 3, 'No'),
-(84, 'siete', '32', '2021-06-02', 'Hombre', 3, 'Si'),
-(85, 'ocho', 'f', '2021-05-12', 'Hombre', 4, 'No'),
-(86, 'nueve', '3', '2021-05-13', 'Hombre', 4, 'No'),
-(87, 'diez', '4', '2021-05-26', 'Hombre', 3, 'No'),
-(88, 'once', '34', '2021-05-26', 'Hombre', 34, 'No');
+(77, 'eder', 'luna', '2021-05-19', 'Hombre', 1.8, 'Si'),
+(78, 'ana', 'paz', '2021-04-30', 'Mujer', 1.56, 'Si'),
+(79, 'camilo', 'castillo', '2021-05-05', 'Hombre', 1.35, 'No'),
+(81, 'martin', 'paz', '2021-05-03', 'Hombre', 1.82, 'No'),
+(82, 'santiago', 'nuñez', '2021-06-04', 'Hombre', 1.54, 'No'),
+(83, 'mari', 'cartagos', '2021-05-29', 'Mujer', 1.65, 'No'),
+(84, 'dayana', 'buitrago', '2021-06-02', 'Mujer', 1.55, 'Si'),
+(85, 'elmer', 'aniz', '2021-05-12', 'Hombre', 1.72, 'No'),
+(86, 'juan', 'mati', '2021-05-13', 'Hombre', 1.67, 'No'),
+(87, 'diego', 'diaz', '2021-05-26', 'Hombre', 1.58, 'No'),
+(88, 'cristian', 'olme', '2021-05-26', 'Hombre', 1.772, 'No');
 
 --
 -- Índices para tablas volcadas
