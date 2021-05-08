@@ -1,0 +1,34 @@
+.padding-form {
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.padding-check {
+  padding-top: 47px;
+}
+
+@media (max-width: 765px) {
+  .padding-check {
+    padding-top: 0;
+  }
+}
+
+.paddingtable {
+  padding: 50px;
+}
+
+.contenedor-pie {
+  /* padding-left: 800px; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-paginacion {
+  padding-top: 23px;
+  margin-left: 15px;
+}
+
+.btn-avanzar {
+  margin-left: 10px;
+}
