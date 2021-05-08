@@ -107,7 +107,7 @@ class Persona extends Conectar{
 		$numfilas=$resultados->rowCount();
 		$totalpag=ceil($numfilas/$registros);
         $resultados->closeCursor();
-        $sql="SELECT * FROM persona LIMIT $inicio, $registros";
+        $sql="SELECT * FROM persona ORDER BY per_id DESC LIMIT $inicio, $registros";
 
         // $sql = "SELECT * FROM persona ORDER BY per_id DESC LIMIT $registros OFFSET $omitirNfilas";
 
